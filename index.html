@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="functionality.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Tic Tac Toe</h1>
+
+        <form id="userselection">
+            <input id="x" type="radio" name="piece" value="x">&nbsp;X
+            <input id="o" type="radio" name="piece" value="o">&nbsp;O
+        </form>
+
+        <div id="scoreboard">
+            <p>W:&nbsp;</p>
+            <p id="win">0</p>
+            <p>L:&nbsp;</p>
+            <p id="loss">0</p>
+            <p>T:&nbsp;</p>
+            <p id="tie">0</p>
+        </div>
+
+        <section id="gameboard">
+            <div class="row rowone">
+                <div class="col" id="0"></div><div class="col" id="1"></div><div class="col" id="2"></div>
+            </div>
+            <div class="row rowtwo">
+                <div class="col" id="3"></div><div class="col" id="4"></div><div class="col" id="5"></div>
+            </div>
+            <div class="row rowthree">
+                <div class="col" id="6"></div><div class="col" id="7"></div><div class="col" id="8"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p><i class="fa fa-th" aria-hidden="true"></i>&nbsp;<a href="http://www.burakaydemir.com" target="_blank">burak aydemir</a></p>
+    </footer>
+</body>
+
+</html>

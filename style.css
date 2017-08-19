@@ -1,0 +1,108 @@
+body {
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    min-width: 310px;
+    background: #f9f8f2;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#userselection {
+    font-family: 'Rock Salt', cursive;
+    font-size: 13px;
+}
+
+#userselection input:nth-child(2) {
+    margin-left: 30px;
+}
+
+#container {
+    text-align: center;
+    padding: 25px 0;
+}
+
+#scoreboard p {
+    display: inline-block;
+    font-size: 28px;
+}
+
+#win, #loss {
+    margin-right: 30px;
+}
+
+p#win, p#loss, p#tie {
+    font-size: 35px;
+}
+
+#win {
+    color: #4baf3b;
+    font-weight: bold;
+}
+
+#loss {
+    color: #e54242;
+    font-weight: bold;
+}
+
+#tie {
+    color: #fccb19;
+    font-weight: bold;
+}
+
+#gameboard {
+    margin: 0 auto;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.rowtwo .col {
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+}
+
+.rowone .col:nth-child(2), .rowtwo .col:nth-child(2), .rowthree .col:nth-child(2) {
+    border-left: 3px solid #333;
+    border-right: 3px solid #333;
+}
+
+.col {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*.cell {
+    padding-top: 15px;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}*/
+
+.x {
+    color: #303672;
+}
+
+.y {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
